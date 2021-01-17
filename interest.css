@@ -1,0 +1,17 @@
+h3 {
+    text-align: center;
+}
+
+.center-div
+{
+     margin: 0 auto;
+     width: 100px; 
+}
+
+#SignIn {
+    width: 50%;
+    margin:auto;
+    margin-top:20px;
+    background-color: #DF8AE0 !important;
+}
+

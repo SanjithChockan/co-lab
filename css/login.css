@@ -1,0 +1,61 @@
+.logInForm {
+    display: inline-block;
+    text-align: center;
+}
+
+/* center the div */
+.center-div
+{
+     margin: 0 auto;
+     width: 100px; 
+}
+
+/* stacks inner div on top of each other */
+.inner {
+    position: absolute;
+  }
+
+footer {
+    color: #9e9e9e;
+    background-color: #f3f3f4;
+    position: fixed;
+    padding: 10px;
+    top: 100vh;
+    margin-top: -100px;
+    width: 100%;
+    height: 100px;
+}
+
+#SignIn {
+    width: 50%;
+    margin:auto;
+    margin-top:20px;
+    background-color: #DF8AE0 !important;
+}
+
+input.login {
+    text-align: center;
+}
+
+input.login:focus {
+    border-bottom: 1px solid #7289da !important;
+    box-shadow: 0 1px 0 0 #7289da !important;
+}
+
+#loginFooter {
+    margin-top: 25px;
+}
+/* Pre-Loader */
+.loader {
+    border: 32px solid #4237BE; /* Light grey */
+    border-top: 32px solid #DF8AE0; /* Blue */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
